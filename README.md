@@ -27,5 +27,5 @@ Make API Document using phpDocumenter
 --------------------------------------
 
 ```
-$ vendor/bin/phpdoc -d ./src -t ./docs/api
+$ vendor/bin/phpdoc -d ./src -t ./docs/documentor
 ```
