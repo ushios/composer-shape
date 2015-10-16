@@ -8,3 +8,4 @@ composer.lock
 ## documents
 docs/documentor/*
 !docs/documentor/.gitkeep
+output
