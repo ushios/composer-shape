@@ -1,0 +1,27 @@
+{
+    "name"          : "ushios/shape",
+    "description"   : "PHP libraries for SPRIX!",
+    "keywords"      : ["php", "shape"],
+    "type"          : "library",
+    "license"       : "MIT",
+    "homepage"      : "https://github.com/ushios/composer-shape",
+    "authors"       : [
+        {
+            "name"      : "Ushio Shugo",
+            "email"     : "ushio.s@gmail.com"
+        }
+    ],
+    "require"       : {
+        "php": ">=5.4.0"
+    },
+    "require-dev"   : {
+        "phpunit/phpunit": "3.7.*",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "fabpot/php-cs-fixer": "*"
+    },
+    "autoload"      : {
+        "psr-0" : {
+            "Ushios": "src"
+        }
+    }
+}
