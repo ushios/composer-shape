@@ -1,4 +1,10 @@
 <?php
+/**
+ * Shape Interface.
+ * 
+ * @author UshioShugo<ushio.s@gmail.com>
+ */
+ 
 namespace Ushios\Shape;
 
 /**

@@ -1,4 +1,10 @@
 <?php
+/**
+ * Keep rectangle infomations file.
+ * 
+ * @author UshioShugo<ushio.s@gmail.com>
+ */
+
 namespace Ushios\Shape;
 
 /**

@@ -1,4 +1,10 @@
 <?php
+/**
+ * Rectangle Interface file.
+ * 
+ * @author UshioShugo<ushio.s@gmail.com>
+ */
+
 namespace Ushios\Shape;
 
 /**
@@ -10,7 +16,6 @@ interface RectangleInterface
 {
     /**
      * Set shape object's width.
-     * 
      * @param int $width shape object's width
      * @return null
      */
@@ -25,7 +30,6 @@ interface RectangleInterface
 
     /**
      * Set shape object's height.
-     * 
      * @param int $height shape object's height
      * @return null
      */

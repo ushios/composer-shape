@@ -1,4 +1,9 @@
 <?php
+/**
+ * Square class file.
+ * 
+ * @author UshioShugo<ushio.s@gmail.com>
+ */
 namespace Ushios\Shape;
 
 /**
