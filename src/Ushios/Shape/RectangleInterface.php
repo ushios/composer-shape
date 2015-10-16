@@ -10,32 +10,32 @@ interface RectangleInterface
 {
 
     /**
-     * Set rectangle's width.
+     * Set shape object's width.
      * 
-     * @param int $width rectangle's width
+     * @param int $width shape object's width
      * @return null
      */
     public function setWidth($width);
 
     /**
-     * Get rectangle's width.
+     * Get shape object's width.
      * 
-     * @return int rectangle's width
+     * @return int shape object's width
      */
     public function getWidth();
 
     /**
-     * Set rectangle's height.
+     * Set shape object's height.
      * 
-     * @param int $height rectangle's height
+     * @param int $height shape object's height
      * @return null
      */
     public function setHeight($height);
 
     /**
-     * Get rectangle's height
+     * Get shape object's height
      * 
-     * @return int rectangle's height
+     * @return int shape object's height
      */
     public function getHeight();
 }

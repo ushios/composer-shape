@@ -3,7 +3,7 @@ ushios/shape
 
 Calclulates your shapes.
 
-
+[![Build Status](https://travis-ci.org/ushios/composer-shape.svg)](https://travis-ci.org/ushios/composer-shape)
 
 Developers
 ===========

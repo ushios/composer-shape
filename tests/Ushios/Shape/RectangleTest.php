@@ -9,4 +9,14 @@ class RectangleTest extends \PHPUnit_Framework_TestCase
     {
         $rectangle = new Rectangle();
     }
+
+    public function testGetterSetter()
+    {
+        $rectangle = new Rectangle();
+        $rectangle->setWidth(100);
+        $rectangle->setHeight(200);
+
+        $this->assertEquals(200, $rectangle->getHeight());
+        $this->assertEquals(100, $rectangle->getWidth());
+    }
 }
