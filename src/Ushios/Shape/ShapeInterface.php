@@ -8,5 +8,4 @@ namespace Ushios\Shape;
  */
 interface ShapeInterface
 {
-    
 }

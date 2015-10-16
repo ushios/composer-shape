@@ -8,7 +8,6 @@ namespace Ushios\Shape;
  */
 interface RectangleInterface
 {
-
     /**
      * Set shape object's width.
      * 
