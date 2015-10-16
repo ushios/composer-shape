@@ -20,12 +20,12 @@ Format
 -------
 
 ```
-$  vendor/bin/php-cs-fixer fix ./src --level=psr2
+$ vendor/bin/php-cs-fixer fix 
 ```
 
 Make API Document using phpDocumenter
 --------------------------------------
 
 ```
-$ vendor/bin/phpdoc -d ./src -t ./docs/documentor
+$ vendor/bin/phpdoc
 ```

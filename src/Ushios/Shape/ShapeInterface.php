@@ -4,7 +4,7 @@
  * 
  * @author UshioShugo<ushio.s@gmail.com>
  */
- 
+
 namespace Ushios\Shape;
 
 /**
@@ -14,4 +14,5 @@ namespace Ushios\Shape;
  */
 interface ShapeInterface
 {
+    
 }
