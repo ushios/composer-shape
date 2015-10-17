@@ -23,7 +23,7 @@ class Scale
         $targetWidth = $target->getWidth();
         $targetHeight = $target->getHeight();
 
-        $widthRatio = $baseWidht / $targetWidth;
+        $widthRatio = $baseWidth / $targetWidth;
         $heightRatio = $baseHeight / $targetHeight;
 
         $newWidth = null;
