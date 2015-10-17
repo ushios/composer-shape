@@ -1,6 +1,6 @@
 {
     "name"          : "ushios/shape",
-    "description"   : "PHP libraries for SPRIX!",
+    "description"   : "Shapes library which calculate rectangle scale and more.",
     "keywords"      : ["php", "shape"],
     "type"          : "library",
     "license"       : "MIT",
