@@ -92,6 +92,15 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    public function testSmallScaleSquareAndWidth()
+    {
+        $this->scaleCompare(
+            1000, 1000,
+            500, 200,
+            2500, 1000
+        );
+    }
+
     protected function scaleCompare(
         $baseWidth, $baseHeight,
         $targetWidth, $targetHeight,

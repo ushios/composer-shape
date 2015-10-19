@@ -42,12 +42,12 @@ class Scale
         $newWidth = null;
         $newHeight = null;
 
-        if ($widthRatio > $heightRatio) {
+        $newWidth = $targetWidth * $heightRatio;
+        $newHeight = $targetHeight * $heightRatio;
+        
+        if (! ($newWidth >= $baseWidth && $newHeight >= $baseHeight) ) {
             $newWidth = $targetWidth * $widthRatio;
             $newHeight = $targetHeight * $widthRatio;
-        } else {
-            $newWidth = $targetWidth * $heightRatio;
-            $newHeight = $targetHeight * $heightRatio;
         }
 
         return new Rectangle($newWidth, $newHeight);
