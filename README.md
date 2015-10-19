@@ -24,6 +24,21 @@ Using composer
 
 [@see Packagist](https://packagist.org/packages/ushios/shape)
 
+Usage
+======
+
+```
+<?php
+
+use Ushios\Shape\Rectangle;
+use Ushios\Shape\Calculator\Scale;
+
+$base = new Rectangle(200, 400);
+$target = new Rectangle(400, 500);
+
+$newRect = Scale::fillRectWithRect($base, $target); // Got width:200, height:250 rectangle
+```
+
 Developers
 ===========
 
