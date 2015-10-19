@@ -14,5 +14,5 @@ script:
   - mkdir -p build/logs
   - phpunit --coverage-clover build/logs/clover.xml --configuration phpunit.xml tests
 
-#after_script:
-#  - php vendor/bin/coveralls -v
+after_script:
+  - php vendor/bin/coveralls -v

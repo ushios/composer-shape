@@ -18,4 +18,7 @@
     <testsuite name="Ushios test suite">
         <directory>tests</directory>
     </testsuite>
+    <logging>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
 </phpunit>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Keep rectangle infomations file.
- * 
+ *
  * @author UshioShugo<ushio.s@gmail.com>
  */
 
@@ -9,7 +9,7 @@ namespace Ushios\Shape;
 
 /**
  * Keep rectangle infomations.
- * 
+ *
  * @author UshioShugo<ushio.s@gmail.com>
  */
 class Rectangle extends ShapeAbstract implements RectangleInterface
@@ -19,6 +19,20 @@ class Rectangle extends ShapeAbstract implements RectangleInterface
 
     /** @var int $height Rectangle's height */
     protected $height;
+
+    /**
+     * Constructor.
+     *
+     * Create new rectangle instance.
+     * @param int $width rectangle's width
+     * @param int $height rectangle's height
+     * @return void
+     */
+    public function __construct($width = null, $height = null)
+    {
+        $this->setWidth($width);
+        $this->setHeight($height);
+    }
 
     /**
      * {@inheritdoc}
