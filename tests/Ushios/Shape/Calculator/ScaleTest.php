@@ -47,6 +47,15 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    public function testTallAndSuperTall()
+    {
+        $this->scaleCompare(
+            100, 400,
+            1, 800,
+            100, 80000
+        );
+    }
+
     public function testTallAndTallNoScale()
     {
         $this->scaleCompare(
@@ -62,6 +71,15 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
             400, 200,
             400, 100,
             800, 200
+        );
+    }
+
+    public function testWidthAndSuperWidth()
+    {
+        $this->scaleCompare(
+            400, 200,
+            800, 100,
+            1600, 200
         );
     }
 
