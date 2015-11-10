@@ -4,6 +4,7 @@ ushios/shape
 [![Build Status](https://travis-ci.org/ushios/composer-shape.svg)](https://travis-ci.org/ushios/composer-shape)
 [![Coverage Status](https://coveralls.io/repos/ushios/composer-shape/badge.svg?branch=master&service=github)](https://coveralls.io/github/ushios/composer-shape?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/562238cb36d0ab00190009cb/badge.svg?style=flat)](https://www.versioneye.com/user/projects/562238cb36d0ab00190009cb)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/206826969aba4c7faeaaae88ecf17f71)](https://www.codacy.com/app/ushios/composer-shape)
 
 Calculates your shapes.
 
