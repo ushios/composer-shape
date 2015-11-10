@@ -18,7 +18,8 @@
         "phpunit/phpunit": "4.8.*",
         "phpdocumentor/phpdocumentor": "2.*",
         "fabpot/php-cs-fixer": "*",
-        "satooshi/php-coveralls": "dev-master"
+        "satooshi/php-coveralls": "dev-master",
+        "codacy/coverage": "dev-master"
     },
     "autoload"      : {
         "psr-0" : {
