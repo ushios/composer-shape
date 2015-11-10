@@ -9,6 +9,7 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
     public function testCreateInstance()
     {
         $scale = new Scale();
+        $this->assertNotNull($scale);
     }
 
     public function testSquareAndSquare()

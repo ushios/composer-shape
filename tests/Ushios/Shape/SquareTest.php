@@ -8,6 +8,7 @@ class SquareTest extends \PHPUnit_Framework_TestCase
     public function testMakeInstance()
     {
         $square = new Square();
+        $this->assertNotNull($square);
     }
 
     public function testGetterSetter()

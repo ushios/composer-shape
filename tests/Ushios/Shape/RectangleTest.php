@@ -8,6 +8,7 @@ class RectangleTest extends \PHPUnit_Framework_TestCase
     public function testMakeInstance()
     {
         $rectangle = new Rectangle(200, 200);
+        $this->assertNotNull($rectangle);
     }
 
     public function testGetterSetter()
