@@ -13,8 +13,8 @@ before_script:
 
 script:
   - mkdir -p build/logs
-  - phpunit --coverage-clover build/logs/clover.xml --configuration phpunit.xml tests
+  - php vendor/bin/phpunit --coverage-clover build/logs/clover.xml --configuration phpunit.xml tests
 
 after_script:
   - php vendor/bin/coveralls -v
-  - php vendor/bin/codacycoverage clover path/to/clover.xml
+  - php vendor/bin/codacycoverage clover build/logs/clover.xml

@@ -9,3 +9,5 @@ composer.lock
 docs/documentor/*
 !docs/documentor/.gitkeep
 output
+build
+
