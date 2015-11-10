@@ -45,7 +45,7 @@ class Scale
         $newWidth = $targetWidth * $heightRatio;
         $newHeight = $targetHeight * $heightRatio;
         
-        if (! ($newWidth >= $baseWidth && $newHeight >= $baseHeight) ) {
+        if (! ($newWidth >= $baseWidth && $newHeight >= $baseHeight)) {
             $newWidth = $targetWidth * $widthRatio;
             $newHeight = $targetHeight * $widthRatio;
         }
