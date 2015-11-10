@@ -1,7 +1,7 @@
 {
     "name"          : "ushios/shape",
     "description"   : "Shapes library which calculate rectangle scale and more.",
-    "keywords"      : ["php", "shape"],
+    "keywords"      : ["php", "shape", "rectangle"],
     "type"          : "library",
     "license"       : "MIT",
     "homepage"      : "https://github.com/ushios/composer-shape",
